@@ -1,7 +1,16 @@
 {
+  "Simple useState": {
+    "prefix": "us",
+    "body": [
+      "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:null})"
+    ],
+    "description": "simple useState snippet"
+  },
+
   "Simple useEffect": {
-    "prefix": "ues",
-    "body": ["useEffect(() => {", "  $0", "}, [${1:deps}])"]
+    "prefix": "ue",
+    "body": ["useEffect(() => {", "  $0", "}, [${1:deps}])"],
+    "description": "simple useEffect snippet"
   },
 
   "Debug useEffect": {
@@ -10,7 +19,8 @@
       "useEffect(() => {",
       "  console.log(${1:variable})",
       "}, [${1:variable}])"
-    ]
+    ],
+    "description": "useEffect debugging snippet"
   },
 
   "Default Function Component": {
@@ -23,6 +33,7 @@
       "    <></>",
       "  )",
       "}"
-    ]
+    ],
+    "description": "delete `import react from 'react';`"
   }
 }
