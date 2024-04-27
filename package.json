@@ -1,14 +1,26 @@
 {
   "name": "short-react-snippets",
-  "publisher": "alexgoni",
   "displayName": "Short React Snippets",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Extensions for React, Short Version of React Snippets",
+  "version": "1.0.0",
+  "publisher": "alexgoni",
+  "icon": "images/logo.png",
+  "keywords": [
+    "snippets",
+    "react",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexgoni/short-react-snippets"
+  },
   "engines": {
     "vscode": "^1.88.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
