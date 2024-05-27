@@ -2,7 +2,7 @@
   "name": "short-react-snippets",
   "displayName": "Short React Snippets",
   "description": "Extensions for React, Short Version of React Snippets",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "publisher": "alexgoni",
   "icon": "images/logo.png",
   "keywords": [
@@ -36,6 +36,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/data.json"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/data.json"
       }
     ]
