@@ -31,9 +31,29 @@
       "export default function ${1:Component}() {",
       "  return (",
       "    <></>",
-      "  )",
+      "  );",
       "}"
     ],
     "description": "delete `import react from 'react';`"
+  },
+
+  "Arrow Function Component": {
+    "prefix": "afc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "interface Props {",
+      "  $3",
+      "}",
+      "",
+      "const ${1:Component}: React.FC<Props> = ({ $2 }) => {",
+      "  return (",
+      "    <></>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:Component};"
+    ],
+    "description": "arrow function component with type"
   }
 }

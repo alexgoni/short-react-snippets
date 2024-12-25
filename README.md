@@ -4,12 +4,13 @@ The Short Version of React Snippets
 
 ## Snippets
 
-| Snippet | Renders                          |
-| ------- | -------------------------------- |
-| `us`    | useState                         |
-| `ue`    | useEffect                        |
-| `ued`   | useEffect debugging snippet      |
-| `dfc`   | export default fuction Component |
+| Snippet | Renders                                |
+| ------- | -------------------------------------- |
+| `us`    | useState                               |
+| `ue`    | useEffect                              |
+| `ued`   | useEffect debugging snippet            |
+| `dfc`   | export default fuction component       |
+| `afc`   | export default arrow fuction component |
 
 ## Full Expansions
 
@@ -33,10 +34,24 @@ useEffect(() => {
 }, [variable]);
 ```
 
-dfc - export default function Component
+dfc - export default function component
 
 ```jsx
 export default function Component() {
   return <></>;
 }
+```
+
+afc - export default arrow function component
+
+```tsx
+import React from "react";
+
+interface Props {}
+
+const Component: React.FC<Props> = ({}) => {
+  return <></>;
+};
+
+export default Component;
 ```
