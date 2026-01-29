@@ -55,5 +55,21 @@
       "export default ${1:Component};"
     ],
     "description": "arrow function component with type"
+  },
+
+  "Export Function Component": {
+    "prefix": "efc",
+    "body": [
+      "",
+      "",
+      "function ${1:Component}() {",
+      "  return (",
+      "    <></>",
+      "  );",
+      "}",
+      "",
+      "export {1:Component};"
+    ],
+    "description": "named export for component"
   }
 }

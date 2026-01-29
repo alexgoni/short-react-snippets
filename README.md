@@ -11,6 +11,7 @@ The Short Version of React Snippets
 | `ued`   | useEffect debugging snippet            |
 | `dfc`   | export default fuction component       |
 | `afc`   | export default arrow fuction component |
+| `efc`   | export fuction component               |
 
 ## Full Expansions
 
@@ -54,4 +55,14 @@ const Component: React.FC<Props> = ({}) => {
 };
 
 export default Component;
+```
+
+efc - export function component
+
+```jsx
+function Component() {
+  return <></>;
+}
+
+export { Component };
 ```
