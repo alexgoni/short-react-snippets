@@ -68,7 +68,7 @@
       "  );",
       "}",
       "",
-      "export ${1:Component};"
+      "export { ${1:Component} };"
     ],
     "description": "named export for component"
   }
