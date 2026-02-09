@@ -23,6 +23,17 @@
     "description": "useEffect debugging snippet"
   },
 
+  "Log in JSX": {
+    "prefix": "lij",
+    "body": [
+      "{(() => {",
+      "  console.log(${1:variable});",
+      "  return <></>;",
+      "})()}"
+    ],
+    "description": "insert console.log in JSX (IIFE)"
+  },
+
   "Default Function Component": {
     "prefix": "dfc",
     "body": [

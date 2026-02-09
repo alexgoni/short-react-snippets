@@ -9,6 +9,7 @@ The Short Version of React Snippets
 | `us`    | useState                               |
 | `ue`    | useEffect                              |
 | `ued`   | useEffect debugging snippet            |
+| `lij`   | insert console.log in JSX              |
 | `dfc`   | export default fuction component       |
 | `afc`   | export default arrow fuction component |
 | `efc`   | export fuction component               |
@@ -33,6 +34,17 @@ ued - useEffect debugging snippet
 useEffect(() => {
   console.log(variable);
 }, [variable]);
+```
+
+lij - insert console.log in JSX (IIFE)
+
+```js
+{
+  (() => {
+    console.log(variable);
+    return <></>;
+  })();
+}
 ```
 
 dfc - export default function component
